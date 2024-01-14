@@ -1,10 +1,4 @@
-export const getData = () => {
-  return [
-    { id: 1, name: 'Item 1' },
-    { id: 2, name: 'Item 2' },
-    { id: 3, name: 'Item 3' },
-  ];
-};
+import { getData } from "./getData"
 
 export default function Home() {
   const items = getData()
